@@ -1,0 +1,16 @@
+----------- gym installation -----------
+- open terminal
+- run following 
+---> pip install gym
+---> pip install pyglet==1.2.4
+
+----------- gym-sns installation -------
+- move to gym-sns folder
+- open terminal
+- run following
+---> pip install -e .
+
+Open the notebook in the same environment used in the above installation (if applicable)
+
+
+

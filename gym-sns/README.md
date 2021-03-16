@@ -1,0 +1,1 @@
+This is a new gym CartPole environment that enable the the user to control the cartpole using the cart's acceleration.
