@@ -30,3 +30,28 @@ drive.mount('/content/drive')
 * Close the "Clone_File.ipynb" and open the colab file ("EN1060_lab04.ipynb") inside the newly cloned repository.
 
 Looking forwards to seeing you at class! :)
+
+## New Instructions for EN1060_Lab04_Cart_Pole_System.ipynb
+
+* Make a new folder with the name "Cart_Pole_System" within the "EN1060_Signals_and_Systems_Labs_190XXX" folder. (i.e.EN1060_Signals_and_Systems_Labs_190XXX/Cart_Pole_System)
+* Open the "Clone_File.ipynb" that we created during the Introduction to Colab session.
+* Connect to a run time in the newly created notebook.
+* Mount the google drive by running the following code.
+
+```
+from google.colab import drive
+drive.mount('/content/drive')
+```
+* Navigate to the "Cart_Pole_System" folder using the following command. Note : replace "/path/to/EN1060_Signals_and_Systems_Labs_190XXX/Cart_Pole_System" with the true path.
+```
+% cd /path/to/EN1060_Signals_and_Systems_Labs_190XXX/Cart_Pole_System
+```
+* Clone this github repository to the current folder.
+```
+! git clone https://github.com/Laknath1996/EN1093_SnS_Lab_4.git
+```
+* Close the "Clone_File.ipynb" and open the "EN1060_Lab04_Cart_Pole_System.ipynb" inside the newly cloned repository.
+
+* Read the description about the Cart Pole System well and understand the mathematical model of it. 
+
+* Go through the codes to understand the implementation details and complete them. Upon completing, run them to observe the cell outputs.
